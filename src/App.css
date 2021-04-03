@@ -20,6 +20,7 @@
 }
 
 .App .container {
+  width: 700px;
   height: auto;
   text-align: center;
   padding: 2rem 0;
