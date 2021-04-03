@@ -1,38 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.App .container {
+  height: auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.App .container header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #49c7f8;
+  margin: 1rem 0;
+}
+
+.App .container form input {
+  width: 20%;
+  padding: 0.4rem 1rem;
+  margin: 0 0.5rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.App .container form label {
+  font-weight: bold;
+  color: #4b6c72;
+}
+
+.App .container form button {
+  padding: 0.4rem 1.5rem;
+  background-color: #129fb8;
   color: white;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.App .container article {
+  padding: 2rem 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .container article p {
+  color: #447b86;
+  margin: 2rem 0;
+  line-height: 1.4;
 }
+/*# sourceMappingURL=App.css.map */
